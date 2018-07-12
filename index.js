@@ -22,7 +22,7 @@ function tailsNeverFails(){
 }
 
 
-while (tailsNeverFails() >=0.5){
+while (result >=0.5){
   console.log (`You got ${result}tails in a row!`);
 }
 
