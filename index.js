@@ -16,6 +16,7 @@ function tailsNeverFails(){
 
 }
 
-while (tailsNeverFails() >=0.5){
-  console.log (`You got ${} tails in a row!`)
+while (tailsNeverFails()){
+  console.log (`You got ${tailsNeverFails} tails in a row!`)
 }
+
