@@ -14,13 +14,13 @@
 
 
 function tailsNeverFails(){
-  return Math.random() >=0.5;
-
+  i = 0
+  
+  while (tailsNeverFails()){
+  console.log (`You got ${tailsNeverFails}tails in a row!`);
 }
 
+  return Math.random() >=0.5;
 
-
-while (tailsNeverFails()){
-  console.log (`You got ${tailsNeverFails}tails in a row!`);
 }
 
