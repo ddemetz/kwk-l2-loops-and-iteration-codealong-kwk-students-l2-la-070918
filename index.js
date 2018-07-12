@@ -16,7 +16,7 @@ return names
 function tailsNeverFails(){
   i = 0;
   
-  while (Math.random() >=0.5){
+  while (Math.random() >=0.5) {
   i++;
 }
 
