@@ -16,7 +16,8 @@
 
 
 function tailsNeverFails(){
-  return Math.random() >=0.5;
+  result = Math.random() >=0.5;
+  return result
 
 }
 
